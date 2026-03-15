@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nieuwbouw Daken — EFM Dakonderhoud B.V.</title>
+    <meta name="description" content="Nieuwbouw daken door EFM Dakonderhoud B.V. Compleet nieuw dak van A tot Z. Voor particulieren, bedrijven en woningcorporaties.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="https://analytics.code-lieshout.nl/prikkel" data-website-id="02f36490-e71a-4588-8baf-989ab998aec9"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { primary: '#1C1917', secondary: '#44403C', accent: '#D97706', 'accent-hover': '#B45309', 'warm-white': '#FAFAF9', 'card-bg': '#F5F5F4', 'text-muted': '#78716C' }, fontFamily: { heading: ['Outfit','sans-serif'], body: ['Source Sans 3','sans-serif'] } } }
+        }
+    </script>
+    <style>
+        body { font-family: 'Source Sans 3', sans-serif; }
+        h1,h2,h3,h4,h5,h6 { font-family: 'Outfit', sans-serif; }
+        .hero-overlay { background: linear-gradient(135deg, rgba(28,25,23,0.85) 0%, rgba(28,25,23,0.5) 100%); }
+    </style>
+</head>
+<body class="bg-warm-white text-primary">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 bg-primary/95 backdrop-blur-sm shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-3"><img src="images/logo.png" alt="EFM Logo" class="h-12 w-auto"><span class="font-heading font-bold text-white text-lg hidden sm:block">EFM Dakonderhoud</span></a>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="index.html" class="text-stone-300 hover:text-white transition-colors duration-200">Home</a>
+                    <a href="onderhoud.html" class="text-stone-300 hover:text-white transition-colors duration-200">Onderhoud</a>
+                    <a href="renovatie.html" class="text-stone-300 hover:text-white transition-colors duration-200">Renovatie</a>
+                    <a href="nieuwbouw.html" class="text-accent font-medium">Nieuwbouw</a>
+                    <a href="portfolio.html" class="text-stone-300 hover:text-white transition-colors duration-200">Portfolio</a>
+                    <a href="over-ons.html" class="text-stone-300 hover:text-white transition-colors duration-200">Over Ons</a>
+                    <a href="contact.html" class="bg-accent hover:bg-accent-hover text-white px-6 py-3 rounded-lg font-heading font-semibold uppercase tracking-wide transition-all duration-200 cursor-pointer">Contact</a>
+                </div>
+                <button id="menuBtn" class="md:hidden text-white cursor-pointer p-2 min-h-[44px] min-w-[44px] flex items-center justify-center" aria-label="Menu"><svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+            </div>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden bg-primary border-t border-stone-700"><div class="px-4 py-4 space-y-3"><a href="index.html" class="block text-stone-300 py-2">Home</a><a href="onderhoud.html" class="block text-stone-300 py-2">Onderhoud</a><a href="renovatie.html" class="block text-stone-300 py-2">Renovatie</a><a href="nieuwbouw.html" class="block text-accent font-medium py-2">Nieuwbouw</a><a href="portfolio.html" class="block text-stone-300 py-2">Portfolio</a><a href="over-ons.html" class="block text-stone-300 py-2">Over Ons</a><a href="contact.html" class="block bg-accent text-white text-center py-3 rounded-lg font-heading font-semibold uppercase tracking-wide">Contact</a></div></div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="relative h-[60vh] min-h-[400px] flex items-center pt-20">
+        <img src="images/nieuwbouw-dak.webp" alt="Nieuwbouw dak door EFM" class="absolute inset-0 w-full h-full object-cover">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 md:px-6 lg:px-8 w-full">
+            <h1 class="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-white mb-4"><span class="text-accent">Nieuwbouw</span> Daken</h1>
+            <p class="text-stone-300 text-xl max-w-2xl">Compleet nieuw dak van A tot Z. Voor particulieren, bedrijven en woningcorporaties.</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="py-20 md:py-28">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="font-heading font-bold text-3xl md:text-4xl text-primary mb-6">Een compleet <span class="text-accent">nieuw dak</span></h2>
+                    <p class="text-text-muted text-lg leading-relaxed mb-6">
+                        Doordat wij de expertise hebben om alle dakwerkzaamheden van A tot Z zelf uit te voeren, bent u ook voor een compleet nieuwe dak bij ons aan het juiste adres. Dus of u nu een nieuwe woning of gebouw heeft, gewoon een nieuwe look wilt of uw dak zodanig versleten is dat het niet meer met een gedeeltelijke reparatie op te knappen is; wij zijn er voor u!
+                    </p>
+                    <p class="text-text-muted text-lg leading-relaxed mb-8">
+                        Voor woningcorporaties kunnen wij ook hele blokken en wijken voorzien van een nieuw dak.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-3 p-4 bg-card-bg rounded-lg">
+                            <svg class="w-6 h-6 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span class="font-medium">Particulier</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-4 bg-card-bg rounded-lg">
+                            <svg class="w-6 h-6 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span class="font-medium">Zakelijk</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-4 bg-card-bg rounded-lg">
+                            <svg class="w-6 h-6 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span class="font-medium">Woningcorporaties</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-4 bg-card-bg rounded-lg">
+                            <svg class="w-6 h-6 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span class="font-medium">Hele wijken</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <img src="images/nieuwbouw-dak-1c.jpg" alt="Nieuwbouw dakproject" class="rounded-xl shadow-lg w-full object-cover" loading="lazy">
+                    <img src="images/google/google_place_4.jpg" alt="EFM nieuwbouw dak" class="rounded-xl shadow-lg w-full object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust -->
+    <section class="py-16 bg-card-bg">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div><div class="font-heading font-bold text-3xl text-accent">18+</div><div class="text-text-muted text-sm mt-1">Jaar Ervaring</div></div>
+                <div><div class="font-heading font-bold text-3xl text-accent">2500+</div><div class="text-text-muted text-sm mt-1">Daken Gebouwd</div></div>
+                <div><div class="font-heading font-bold text-3xl text-accent">10</div><div class="text-text-muted text-sm mt-1">Jaar Garantie</div></div>
+                <div><div class="font-heading font-bold text-3xl text-accent">5.0</div><div class="text-text-muted text-sm mt-1">Google Rating</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-primary">
+        <div class="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 text-center">
+            <h2 class="font-heading font-bold text-3xl md:text-4xl text-white mb-6"><span class="text-accent">Nieuw dak</span> nodig?</h2>
+            <p class="text-stone-300 text-lg mb-8">Neem vrijblijvend contact met ons op voor een gratis offerte. Wij komen graag langs om uw situatie te bekijken.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-accent hover:bg-accent-hover text-white px-8 py-4 rounded-lg font-heading font-semibold uppercase tracking-wide transition-all duration-200 cursor-pointer">Offerte Aanvragen</a>
+                <a href="tel:0031628492732" class="border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-lg font-heading font-semibold uppercase tracking-wide transition-all duration-200 cursor-pointer">06 284 927 32</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12 mb-12">
+                <div><img src="images/logo.png" alt="EFM Logo" class="h-14 w-auto mb-4"><p class="text-stone-400 leading-relaxed">Vakwerk in dakwerk.</p></div>
+                <div><h4 class="font-heading font-bold text-white text-lg mb-4">Diensten</h4><ul class="space-y-3"><li><a href="onderhoud.html" class="text-stone-400 hover:text-accent cursor-pointer">Dakonderhoud</a></li><li><a href="renovatie.html" class="text-stone-400 hover:text-accent cursor-pointer">Dakrenovatie</a></li><li><a href="nieuwbouw.html" class="text-stone-400 hover:text-accent cursor-pointer">Nieuwbouw</a></li><li><a href="portfolio.html" class="text-stone-400 hover:text-accent cursor-pointer">Portfolio</a></li></ul></div>
+                <div><h4 class="font-heading font-bold text-white text-lg mb-4">Contact</h4><ul class="space-y-3"><li class="text-stone-400">Habsburgstraat 31, 5346 SB Oss</li><li><a href="tel:0031628492732" class="text-stone-400 hover:text-accent cursor-pointer">06 284 927 32</a></li><li><a href="mailto:info@efmdakonderhoud.nl" class="text-stone-400 hover:text-accent cursor-pointer">info@efmdakonderhoud.nl</a></li></ul></div>
+                <div><h4 class="font-heading font-bold text-white text-lg mb-4">Openingstijden</h4><ul class="space-y-2 text-stone-400 text-sm"><li class="flex justify-between"><span>Ma - Vr</span><span>06:30 - 18:00</span></li><li class="flex justify-between"><span>Zaterdag</span><span>06:30 - 14:00</span></li><li class="flex justify-between"><span>Zondag</span><span>Gesloten</span></li></ul></div>
+            </div>
+            <div class="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-stone-500 text-sm">&copy; 2026 EFM Dakonderhoud B.V.</p>
+                <p class="text-stone-500 text-sm">Gebouwd door <a href="https://www.code-lieshout.nl" class="text-accent hover:text-amber-400 cursor-pointer">Code Lieshout</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('mobileMenu').classList.toggle('hidden'));</script>
+</body>
+</html>
